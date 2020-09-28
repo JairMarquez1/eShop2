@@ -253,3 +253,10 @@
 .navbar-custom img{
 		filter:invert(1);
 		align-self:center;
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
