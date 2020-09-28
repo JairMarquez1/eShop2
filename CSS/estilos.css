@@ -228,7 +228,7 @@
 		display: inline-block;
 		padding: 10px 30px;
 		color: #B1D22B;
-		background: rgba(0, 0, 0, 0.05);
+		background: rgba(0, 0, 0, 0.05) !important;
 		border: 2px solid #B1D22B;
 		/*
 		text-transform: uppercase;
