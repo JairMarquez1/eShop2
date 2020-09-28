@@ -62,7 +62,7 @@
 
 
 
-@media (min-width: 480px){
+@media (min-width: 240px){
 	.aboutuscontainer {
 		padding: 40px 40px 0px 40px;
 		background-color: #EEEEEE;
@@ -135,7 +135,7 @@
 
 
 /* ---------------- Movil ---------------- */
-@media (min-width: 480px){
+@media (min-width: 240px){
 
 	#banner {
 		background-image: url(../Images/creativekidswallpaper2.jpg);
