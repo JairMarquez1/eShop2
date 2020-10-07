@@ -75,7 +75,24 @@
 .navbar-custom .dropdown-item {
     color: #000;
 }
+/*pa que sirva esto*/
+@media (max-width: 500px){
+.navbar-custom .navbar-brand {
+    font-family: 'Sofiapro';
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgba(177, 210, 43, 0.9);
+    padding-right: 0 !important;
+    margin-right: 0 !important;}
 
+.navbar-custom {
+    background-color: black;
+    padding: 0px 5px 1px 5px;
+    width:100%;
+    z-index:3;
+    position:fixed;
+}
+}
 
 
 

@@ -1,0 +1,101 @@
+
+@font-face {
+	font-family: 'Sofiapro';
+	src: local('Sofiapro'), url('Fonts/Sofiapro/sofiapro-light1-webfont.woff') format('woff'),
+							url('Fonts/Sofiapro/sofiapro-light.otf') format('truetype');}
+
+*{
+	font-family: 'Sofiapro';}
+
+body{
+	background-color: rgb(27,27,27);
+}
+
+li{
+	list-style: none;
+}
+h1{
+	text-align: center;
+	background-color: white;
+	padding: 10px;
+	background-color: rgb(177,210,43);
+}
+
+.productName{
+	color: rgb(60,60,60);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.productPrice{
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(30,150,30);
+}
+
+.add-cart{
+	position: absolute;
+    width: 100%;
+    background-color: darkgrey;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 50px 10px 0px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.producto:hover .add-cart{
+    bottom: 0px;
+    opacity: 0.8;
+    padding: 15px;
+    text-decoration:none;
+}
+	
+
+@media (min-width: 1024px){
+	.productContainer{
+		text-align: center;
+		margin: auto;
+		width: 80%;
+
+	}
+	.imgPr{
+		width: 15vw;	
+		margin: auto;
+		margin-top: 10px;
+	}
+	.producto{
+		display: grid;
+		width: 18.7vw;
+		float: left;
+		background-color: white;
+		margin: 0.5vw;
+		position: relative;
+	}
+}
+
+@media (max-width: 1023px){
+	.productContainer{
+		text-align: center;
+		margin: auto;
+		width: 95%;
+	}
+	.imgPr{
+		width: 30vw;
+		margin: auto;
+		margin-top: 10px;
+	}
+	.producto{
+		display: grid;
+		width: 44.8vw;
+		float: left;
+		background-color: white;
+		margin: 0.5vw;
+		position: relative;
+	}
+}
+
+
