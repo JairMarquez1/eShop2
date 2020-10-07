@@ -11,6 +11,7 @@
 	    <link href="CSS/estilos.css" rel="stylesheet">
 	    <link href="CSS/footer.css" rel="stylesheet">
 	    <link href="CSS/Icons/fontello-e1be2622/css/fontello.css" rel="stylesheet">
+	    <script type="text/javascript" src="nav.js"></script>
 	    
 	    <!-- Javascript (funciones) -->
 	    <link href="">
@@ -52,7 +53,7 @@
 		                </a>
 		                <div class="dropdown-menu border-0" aria-labelledby="dropdownMenu" id="dropdownProducts">
 		                    <a class="dropdown-item" href="#">Tazas</a>
-		                    <a class="dropdown-item" href="#">Playeras</a>
+		                    <a class="dropdown-item" href="playeras.html">Playeras</a>
 		                    <a class="dropdown-item" href="#">Sudaderas</a>
 		                    <a class="dropdown-item" href="#">Llaveros</a>
 		                    <a class="dropdown-item" href="#productos">Más productos...</a>
@@ -189,28 +190,3 @@
 -->
 </html>
 
-
-
-<script type="text/javascript">
-	var opened;
-    window.addEventListener('click', function(e){
-		if (opened)
-			if (!opened.parentNode.contains(e.target))
-				opened.style.display = "none";
-
-	},true);
-
-	function validarmenu(e, p_id, ch_id) {
-		console.log(document.getElementById(ch_id).style.display);
-		if(document.getElementById(ch_id).style.display == "none" || document.getElementById(ch_id).style.display == ""){
-			document.getElementById(ch_id).style.display = "block";
-			console.log("2.1");
-		}
-		else if (ch_id){
-			document.getElementById(ch_id).style.display = "none";
-			console.log("2.2");
-		}
-		opened = document.getElementById(ch_id);
-        }
-
-</script>
