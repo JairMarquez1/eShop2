@@ -31,37 +31,6 @@ a:hover{
 	color: red;
 }
 
-/*.talla {
-  list-style-type: none;
-}
-
-.talla li {
-  float: left;
-}
-
-
-.talla input[type="radio"] {
-	margin-right: 20px;
-    opacity: 0.01;
-    position: absolute;
-}
-
-.talla input[type="radio"]:checked+label,
-.Checked+label {
-  background-color: rgb(98,107,115);
-}
-
-
-.talla label:hover {
-	transition: all 0.3s ease-in-out;
-    background: #DDD;
-}
-
-.talla label{
-	margin: 2px;
-	padding: .25rem .5rem;
-}*/
-
 .productName{
 	font-size: 1.5vw;
 	color: rgb(177,210,43);
@@ -81,7 +50,6 @@ a:hover{
 }
 
 .add-cart{
-	text-align: end;
 	display: initial;
 	position: absolute; 
     width: 75%;
@@ -137,15 +105,16 @@ a:hover{
 	    overflow: hidden;
 	}
 	.imgPr{
-		width: 30vw;
+		width: 75%;
 		margin: auto;
 		margin-top: 10px;
+		border: 3px solid rgb(80,80,80);
 	}
 	.producto{
 		display: grid;
 		width: 44.8vw;
 		float: left;
-		background-color: white;
+		/*background-color: rgb(50,50,50);*/
 		margin: 0.5vw;
 		position: relative;
 		/*height: 33vh;*/
@@ -160,9 +129,10 @@ a:hover{
 	}
 
 	.add-cart{
-		width: 100%;
+		width: 75%;
 		font-size: 3vw;
 		top: 0;
+		margin: 3vw 5.4vw;
 	}
 
 }
