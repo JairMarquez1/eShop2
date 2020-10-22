@@ -10,6 +10,7 @@
 	    <link href="CSS/geckonavbar_style.css" rel="stylesheet">
 	    <link href="CSS/estilos.css" rel="stylesheet">
 	    <link href="CSS/productos.css" rel="stylesheet">
+	    <link href="CSS/formularios.css" rel="stylesheet">
 	    <link href="CSS/Icons/fontello-e1be2622/css/fontello.css" rel="stylesheet">
 	   	<script type="text/javascript" src="JS/nav.js"></script>
 	    
@@ -54,7 +55,7 @@
 		                </a>
 		                <div class="dropdown-menu border-0" aria-labelledby="dropdownMenu" id="dropdownProducts">
 		                    <a class="dropdown-item" href="#">Tazas</a>
-		                    <a class="dropdown-item" href="#">Playeras</a>
+		                    <a class="dropdown-item" href="playeras.html">Playeras</a>
 		                    <a class="dropdown-item" href="#">Sudaderas</a>
 		                    <a class="dropdown-item" href="#">Llaveros</a>
 		                    <a class="dropdown-item" href="#productos">Más productos...</a>
@@ -92,57 +93,17 @@
 		</nav>
 		<!-- -------------------------- Contenido -------------------------- -->
 			<div style="height: 64px"></div>
-			<h1>Playeras</h1>
+			<h1>Iniciar Sesión</h1>
 			<div class="contenido">
-				<div class="producto">
-					<p class="add-cart cart1" ><a href="#">Añadir al Carrito</a></p>
-					<img class="imgPr" src="Images/Productos/1.jpg">
-					<h2 class="productName">ProductName</h2>
-					<label class="productPrice">$300.00</label>
-				</div>
-				<div class="producto">
-					<p class="add-cart cart1" ><a href="#">Añadir al Carrito</a><br><button class="btn btn-secondary btn-sm">CH</button> <button class="btn btn-secondary btn-sm">M</button> <button class="btn btn-secondary btn-sm">G</button></p>
-					<img class="imgPr" src="Images/Productos/1.jpg">
-					<h2 class="productName"><a href="#">ProductName</a></h2>
-					<label class="productPrice">$300.00</label>
-				</div>
-				<div class="producto">
-					<p class="add-cart cart1" ><a href="#">Añadir al Carrito</a></p>
-					<img class="imgPr" src="Images/Productos/2.jpg">
-					<h2 class="productName">ProductName</h2>
-					<label class="productPrice">$300.00</label>
-				</div>
-				<div class="producto">
-					<p class="add-cart cart1" ><a href="#">Añadir al Carrito</a></p>
-					<img class="imgPr" src="Images/Productos/1.jpg">
-					<h2 class="productName">ProductName</h2>
-					<label class="productPrice">$300.00</label>
-				</div>
-				<div class="producto">
-					<p class="add-cart cart1" ><a href="#">Añadir al Carrito</a></p>
-					<img class="imgPr" src="Images/Productos/3.jpg">
-					<h2 class="productName">ProductName</h2>
-					<label class="productPrice">$300.00</label>
-				</div>
-				<div class="producto">
-					<p class="add-cart cart1" ><a href="#">Añadir al Carrito</a></p>
-					<img class="imgPr" src="Images/Productos/1.jpg">
-					<h2 class="productName">ProductName</h2>	
-					<label class="productPrice">$300.00</label>
-				</div>
-				<div class="producto">
-					<p class="add-cart cart1" ><a href="#">Añadir al Carrito</a></p>
-					<img class="imgPr" src="Images/Productos/1.jpg">
-					<h2 class="productName">ProductName</h2>
-					<label class="productPrice">$300.00</label>
-				</div>
-				<div class="producto">
-					<p class="add-cart cart1" ><a href="#">Añadir al Carrito</a></p>
-					<img class="imgPr" src="Images/Productos/1.jpg">
-					<h2 class="productName">ProductName</h2>
-					<label class="productPrice">$300.00</label>
-				</div>
-						
+					<form>
+						<table class="formulario">
+						<tr><td>Usuario: </td><td><input type="" name="" class="form-control" placeholder="Usuario"></td></tr>
+						<tr><td>Contraseña: &nbsp</td><td><input type="" name="" class="form-control" placeholder="Contraseña"></td></tr>				
+						<tr><td></td><td><button type="submit" class="btn btn-dark">Iniciar Sesión</button></td></tr>
+						</table>
+						<a href="registrar_usuario.php">Registrar nuevo usuario</a><br><br>
+						<a href="#">Olvidé mi contraseña</a>
+					</form>
 			</div>
 	</body>
 </html>
