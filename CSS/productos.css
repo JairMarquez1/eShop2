@@ -16,7 +16,6 @@ li{
 }
 h1{
 	text-align: center;
-	background-color: white;
 	padding: 10px;
 	background-color: rgb(177,210,43);
 }
@@ -31,15 +30,20 @@ a:hover{
 	color: red;
 }
 
+
+
+.producto{
+	/*text-align: center;*/
+}
+
 .productName{
-	font-size: 1.5vw;
+	font-size: 1.2vw;
 	color: rgb(177,210,43);
 	overflow: hidden;
-	text-align: center;
 	text-overflow: ellipsis;
-	margin:auto;
-	margin-top: 3px;
-	font-weight: 500;
+	white-space: nowrap;
+	/*column-width: 100px;*/
+	margin: 0;
 
 }
 .productPrice{
@@ -47,6 +51,7 @@ a:hover{
 	font-weight: bold;
 	font-size: 20px;
 	color: rgb(30,150,30);
+	margin: 0;
 }
 
 .add-cart{
@@ -71,17 +76,23 @@ a:hover{
    	top: 0;
    /*top: 14vw;*/
 }
-	
+
+.pie-producto{
+	width: 75%;
+	text-align: center;
+	display: inherit;
+}
 
 @media (min-width: 720px){
 	.contenido{
-		text-align: center;
-		margin: auto;
+		/*margin: auto;*/
+		margin: 0 18% 0 23%;
 		width: 60%;
 
 	}
 	.imgPr{
 		width: 75%;	
+		height: 75%;
 		border: 3px solid rgb(80,80,80);
 	}
 	.producto{
@@ -97,16 +108,14 @@ a:hover{
 
 @media (max-width: 719px){
 	.contenido{
-		text-align: center;
-		margin: auto;
-		width: 95%;
-		margin-bottom: -100%;
-	    padding-bottom: 100%;
+		/*margin: auto;*/
+		margin: 0 0 0 8%;
+		width: 92%;
 	    overflow: hidden;
 	}
 	.imgPr{
-		width: 75%;
-		margin: auto;
+		width: 35.6vw;
+		height: 37.5vw;
 		margin-top: 10px;
 		border: 3px solid rgb(80,80,80);
 	}
@@ -117,11 +126,12 @@ a:hover{
 		/*background-color: rgb(50,50,50);*/
 		margin: 0.5vw;
 		position: relative;
-		/*height: 33vh;*/
+		height: 50vw;
 	}
 
-	.productName{
+	.productName, .productPrice{
 	font-size: 4vw;
+
 	}
 
 	button{
@@ -129,13 +139,15 @@ a:hover{
 	}
 
 	.add-cart{
-		width: 75%;
+		width: 35.6vw;
 		font-size: 3vw;
 		top: 0;
-		margin: 3vw 5.4vw;
+		margin: 2vw 0;
 	}
 
-}
+	.pie-producto{
+		width: 75%;
+	}
 }
 
 
