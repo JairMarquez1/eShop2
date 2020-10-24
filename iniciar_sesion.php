@@ -50,12 +50,11 @@
 		                    data-toggle="dropdown" 
 		                    aria-haspopup="true" 
 		                    aria-expanded="false"
-		                    onclick="validarmenu(this, this.id, 'dropdownProducts')"
-		                    style="color: green"> Productos
+		                    onclick="validarmenu(this, this.id, 'dropdownProducts')"> Productos
 		                </a>
 		                <div class="dropdown-menu border-0" aria-labelledby="dropdownMenu" id="dropdownProducts">
 		                    <a class="dropdown-item" href="#">Tazas</a>
-		                    <a class="dropdown-item" href="playeras.html">Playeras</a>
+		                    <a class="dropdown-item" href="playeras.php">Playeras</a>
 		                    <a class="dropdown-item" href="#">Sudaderas</a>
 		                    <a class="dropdown-item" href="#">Llaveros</a>
 		                    <a class="dropdown-item" href="#productos">Más productos...</a>
@@ -79,7 +78,7 @@
 		                </div>
 		            </li>
 		            <li class="nav-item">
-		                <a class="nav-link pl-3 pr-3" href="iniciar_sesion.php">Inicia sesión</a>
+		                <a class="nav-link pl-3 pr-3" href="iniciar_sesion.php" style="color: white">Inicia sesión</a>
 		            </li>
 		            <li class="nav-item active">
 		                <a class="nav-link pl-3 pr-3" href="carrito.html">Carrito <img class="pl-1 pt-1" id="cart" src="Images/carrito.png" width="30" height="28" alt=""></a>
@@ -94,7 +93,7 @@
 		<!-- -------------------------- Contenido -------------------------- -->
 			<div style="height: 64px"></div>
 			<h1>Iniciar Sesión</h1>
-			<div class="contenido">
+			<div class="contenido" style="text-align: center; margin:auto;">
 					<form>
 						<table class="formulario">
 						<tr><td>Usuario: </td><td><input type="" name="" class="form-control" placeholder="Usuario"></td></tr>

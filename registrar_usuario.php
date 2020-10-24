@@ -113,7 +113,7 @@
 	                </a>
 	                <div class="dropdown-menu border-0" aria-labelledby="dropdownMenu" id="dropdownProducts">
 	                    <a class="dropdown-item" href="#">Tazas</a>
-	                    <a class="dropdown-item" href="playeras.html">Playeras</a>
+	                    <a class="dropdown-item" href="playeras.php">Playeras</a>
 	                    <a class="dropdown-item" href="#">Sudaderas</a>
 	                    <a class="dropdown-item" href="#">Llaveros</a>
 	                    <a class="dropdown-item" href="#productos">Más productos...</a>
@@ -152,7 +152,7 @@
 	<!-- -------------------------- Contenido -------------------------- -->
 		<div style="height: 64px"></div>
 		<h1>Registro</h1>
-		<div class="contenido" id="contenido">
+		<div class="contenido" id="contenido" style="text-align: center; margin:auto;">
 				<form name="registerForm" method="post" action="registrar_usuario.php" onsubmit="return validateForm()">
 					<table class="formulario">
 					<tr><td>Nombres: </td><td><input type="text" name="nombres_registro" class="form-control" placeholder="Nombres*" required maxlength="20" id="nombre" onclick="color(this)"></td><td></td></tr>
